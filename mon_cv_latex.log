@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.19)  8 NOV 2019 06:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.19)  8 NOV 2019 19:28
 entering extended mode
 **./mon_cv_latex.tex
 (mon_cv_latex.tex
@@ -627,7 +627,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `breaklinks' set `true' on input line 28.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 28.
 
-No file mon_cv_latex.aux.
+(mon_cv_latex.aux)
 \openout1 = `mon_cv_latex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -646,6 +646,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
+
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count274
@@ -736,9 +737,12 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 28.
 LaTeX Info: Redefining \pageref on input line 28.
 LaTeX Info: Redefining \nameref on input line 28.
+
+(mon_cv_latex.out) (mon_cv_latex.out)
 \@outlinefile=\write3
 \openout3 = `mon_cv_latex.out'.
 
+\pagenumberwidth=\skip81
 LaTeX Font Info:    Try loading font information for OMS+qpl on input line 29.
 LaTeX Font Info:    No file OMSqpl.fd. on input line 29.
 
@@ -787,36 +791,27 @@ LaTeX Font Warning: Font shape `T1/qpl/m/sl' in size <12> not available
 
 {C:/Users/PAVILION/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
  (mon_cv_latex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
+Package rerunfilecheck Info: File `mon_cv_latex.out' has not changed.
+(rerunfilecheck)             Checksum: C737D80891E733C78129843A9F9CD037;1127.
 
-
-Package rerunfilecheck Warning: File `mon_cv_latex.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `mon_cv_latex.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  FCC3074EAE2A01D9AD3B685C7FAF9DA7;913.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 24662 strings out of 492895
- 413406 string characters out of 3133470
- 507740 words of memory out of 3000000
- 28338 multiletter control sequences out of 15000+200000
+ 24678 strings out of 492895
+ 413715 string characters out of 3133470
+ 508907 words of memory out of 3000000
+ 28347 multiletter control sequences out of 15000+200000
  585027 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,11n,65p,809b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,12n,65p,809b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Program Fi
 les/MiKTeX 2.9/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Program Files/Mi
@@ -824,9 +819,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/tex-gyre/qplb.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/tex-gyre/qplr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gy
 re/qplri.pfb>
-Output written on mon_cv_latex.pdf (3 pages, 216190 bytes).
+Output written on mon_cv_latex.pdf (3 pages, 223331 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 16897 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 82 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
+ 16961 words of extra memory for PDF output out of 17280 (max. 10000000)
 
