@@ -1,4 +1,5 @@
 \documentclass[11pt,a4paper]{moderncv}
+%sans
 \moderncvstyle[left]{banking} 
 \moderncvcolor{burgundy}
 %orientation de la photo
@@ -8,8 +9,9 @@
 %   {width=\@photowidth,angle=-90}%{}{}
 \setlength{\hintscolumnwidth}{4cm} 
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage[scale=0.8]{geometry}
-%\usepackage{helvet}
+\usepackage{helvet}
 \usepackage[french]{babel}
 \name{TOMFEU}{CISSOKO~Boris      }
 \title{software~developer} 
@@ -22,9 +24,9 @@
 %\social[linkedin]{Boris.Cissoko}
 %\social[twitter]{pierre.durand}
 \social[github]{cissoko97}
-\extrainfo{BI Developper Talend and QlikView -- network administrator}
+\extrainfo{BI Developer Talend and QlikView}
 \photo[90pt][0.0pt]{maphoto}
-\quote{Jeune, curieux, travailleur, désirant mettre en valeur mon savoir faire tout en acquérant des compétences. Disposer à travailler dans tout cadre propisse à l'atteinte de ces objectifs  }
+\quote{Jeune, curieux, travailleur, désirant mettre en valeur mon savoir faire tout en acquérant des compétences. Disposer à travailler dans tout cadre propice à l'atteinte de ces objectifs.}
 \begin{document}
 \makecvtitle
 \section{Formation}
@@ -33,48 +35,57 @@
 \cventry{En~~cours}{Master en informatique}{Institut universitaire de la côte (IUC)}{Littoral--Cameroun}{\textit{Option SIGL}}{}
 \section{Expérience Technique}
 %licence 2 semestre 1
-\cventry{Dec--2016/Jan--2017}{Conception et implémentaion d'une application d'envoi et de reception des SMS}{Licence 2 -- Semestre 1 -- Initiation au developpement JAVA (SE)}{Academique}{}{%
+\cventry{Dec--2016/Jan--2017}{Conception et implémentaion d'une application d'envoi et de reception des SMS}{Licence 2 -- Semestre 1 -- Initiation au developpement JAVA (SE)}{Académique}{}{%
 \begin{itemize}
 \item Utilisation de la librairie SMSLIB pour l'envoie des SMS;
-\item Conception et implementation des interfaces utilisateurs avec java SWING;
-\item Utilisation de MySQl mour la persistance des données.
+\item Conception et implémentation des interfaces utilisateurs avec java SWING;
+\item Utilisation de MySQl pour la persistance des données.
+\end{itemize}}
+%Licence 2 semestre 1 C# 
+\cventry{Mar--2017/Avr--2017}{Developpement du jeux "QUI VEUT GAGNER DES MILLIONS?" en ASP.net}{Licence 2 -- Semestre 1 -- initiation au developpement en langage ASP.net}{Académique}{}{%
+\begin{itemize}
+\item Conception et implémentaion des interfaces avec avec;
+\item Conception et implémentation du processus métier;
+\item Gestion des fichiers Audio(lecture) et texte (Lecture et écriture)
+\item Gestion de la lecture de texte
 \end{itemize}}
 %Licence 2 semestren 2 
-\cventry{Jui--2017/Juil--2017}{Développement d'une application android pour le contrôle des pièces de véhicules}{Licence 2 -- Semestre 2 -- initiation au developpement android}{Academique}{}{%
+\cventry{Jui--2017/Juil--2017}{Developpement d'une application android pour le contrôle des pièces de véhicules}{Licence 2 -- Semestre 2 -- initiation au developpement android}{Académique}{}{%
 \begin{itemize}
-\item Conception et implementaion des interfaces avec android;
+\item Conception et implémentaion des interfaces avec android;
 \item Initiation au service WEB SOAP;
-\item Utilisation de MySQl pour la persistance des données cotés serveur
-\item Communication avec un Back-end SOAP;
+\item Utilisation de MySQL pour la persistance des données coté serveur
+\item Communication avec un Back-end SOAP.
 \end{itemize}}
 %MYBONWAYS
-\cventry{Juil--2017/Sept--2017}{Stage Academique}{MYBONWAYS.SARL}{Professionel}{Developpement d'application android}%
+\cventry{Juil--2017/Sept--2017}{Stage Académique}{MYBONWAYS.SARL}{Professionnel}{Developpement d'application android}%
 {%
 \begin{itemize}%
 	\item conception et implémentation des interfaces;
 	\item Communication avec le back-end (Java Spring boot);
-	\item initiation au REST API.
+	\item initiation aux API REST.
 \end{itemize}}
-%Licence 3 semestren 1 
-\cventry{Jan--2018/Fev--2018}{Développement d'une application web de e-commerce}{Licence 3 -- Semestre 1 -- initiation au developpement J2EE}{Academique}{}{%
+%Licence 3 semestren 1
+\newpage
+\cventry{Jan--2018/Fev--2018}{Developpement d'une application web de e-commerce}{Licence 3 -- Semestre 1 -- initiation au developpement J2EE}{Académique}{}{%
 \begin{itemize}
 \item Utilisation de Bootstrap et Jquery;
 \item Utilisation de l'API MonetBil pour le payement mobile via OrangeMoney;
 \item Utilisation d'Hibernate JPA et MySQL pour la persistance des données;
-\item Implémentation du Design pattern MVC;
+\item Implémentation du Design pattern MVC.
 \end{itemize}}
 %Licence 3 semestren 2
-\newpage
-\cventry{Mai--2018/Jui--2018}{Développement d'un application pour la gestion des Aeroport (Juste les interfaces)}{Licence 3 -- Semestre 2 -- initiation au developpement java avancé (JavaFX)}{Academique}{}{
+%\newpage
+\cventry{Mai--2018/Jui--2018}{Developpement d'un application pour la gestion des Aeroport (Juste les interfaces)}{Licence 3 -- Semestre 2 -- initiation au developpement java avancé (JavaFX)}{Académique}{}{
 \begin{itemize}
-\item Conception et implementaion des interfaces avec la librairie JavaFX;
+\item Conception et implémentaion des interfaces avec la librairie JavaFX;
 \item Utilisation de scene Builder et FXML;
 \item Utilisation de JFoenix qui est une implémentation du Material Design pour JavaFX;
-\item Utilisation de JavaFX CSS pour la personnalisation;
+\item Utilisation de JavaFX CSS pour la personnalisation.
 \end{itemize}}
 %SABC 1er sejour
 %\newpage
-\cventry{Aout--2018/Dec--2018}{Stage}{Groupe SABC}{Professionel}{Conception et implémentation d'un systeme de reporting (BI)}%
+\cventry{Aout--2018/Dec--2018}{Stage}{Groupe SABC}{Professionnel}{Conception et implémentation d'un système de reporting (BI)}%
 {%f
 \begin{itemize}%
 	\item Conception des ETL;
@@ -83,14 +94,14 @@
 \end{itemize}}
 %SABC second sejour
 %
-\cventry{Jan--2019/Fer--2019}{Stage}{Groupe SABC}{Professionel}{Conception et implémentation d'un systeme de reporting (BI)}%
+\cventry{Jan--2019/Fer--2019}{Stage}{Groupe SABC}{Professionnel}{Conception et implémentation d'un système de reporting (BI)}%
 {%
 \begin{itemize}%
 	\item Conception des ETL;
 	\item Implémentation des ETL avec QlikView;
 	\item Conception et implémentation des tableaux de bords avec QlikView.
 \end{itemize}}
-\cventry{Mar--2019/Oct--2019}{Prestation}{Groupe SABC}{Professionel}{Conception et implémentation de multiples Application Web}%
+\cventry{Mar--2019/Oct--2019}{Prestation}{Groupe SABC}{Professionnel}{Conception et implémentation de multiples Application Web}%
 {%
 \begin{itemize}%
 	\item Automatisation de la Mise à jour des KPI
@@ -99,45 +110,46 @@
 	\item Utilisation de JQuery et de multiple plugin JS.
 \end{itemize}}
 %Freelance
-\cventry{Oct--2019/Oct--2019}{Freelance}{Recherche personnel}{Veille technologique}{prise en mains du framework nodeJS}%
+\cventry{Oct--2019/Oct--2019}{Freelance}{Recherche personnelle}{Veille technologique}{prise en mains du framework nodeJS}%
 {%
 \begin{itemize}%
-	\item Conception et implemntation d'une application Web pour la gestion des produits 
+	\item Conception et implémentation d'une application Web pour la gestion des produits 
 	\item Utilisation de Express;
 	\item Utilication de Sequelize + MySql pour la gestion de la persisitance;
 	\item Utilisation de EJS pour la gestion des vues.
 \end{itemize}}
 %Freelance
-\cventry{Oct--2019/Oct--2019}{Freelance}{Recherche personnel}{Veille technologique}{prise en mains du framework nodeJS}%
+\cventry{Oct--2019/Oct--2019}{Freelance}{Recherche personnelle}{Veille technologique}{prise en mains du framework nodeJS}%
 {%
 \begin{itemize}%
-	\item Conception et implemntation d'une API Rest avec NodeJS
+	\item Conception et implémentation d'une API Rest avec NodeJS (ToDo App)
 	\item Utilisation de Express;
 	\item Utilication de Sequelize + MySql pour la gestion de la persisitance.
 \end{itemize}}
 \section{Langues}
 \cvitemwithcomment{Français}{Lu, parlé, écrit}{}
 \cvitemwithcomment{Anglais}{niveau débutant}{}
+\newpage
 \section{Compétences informatiques}
 \cvdoubleitem{Java}{SE, J2EE, JavaFX}{Android}{Native}
 \cvdoubleitem{JS}{Angular, NodeJs (Full-Stack)}{\LaTeX}{moderncv, beams}
 \cvdoubleitem{PHP}{Laravel (Full-Stack)}{UML}{Maîtrise de la méthode de modélisation}
 \cvdoubleitem{Git}{Outil de versionning}{SGBD}{MySQL niveau intermédiaire}
-\cvdoubleitem{.md (MarkDown)}{fichier de documentation}{}{}
-\newpage
-\section{Outils de développement utilisé}
+\cvdoubleitem{.md (MarkDown)}{fichier de documentation}{ASP.net}{Niveau débutant}
+%\newpage
+\section{Outils de Developpement utilisé}
 \cvdoubleitem{NetBeans}{IDE pour programmer en JAVA}{AndroidStudio}{Android Native}
 \cvdoubleitem{Visual Studio code}{}{TexMaker}{IDE pour latex}
-\cvdoubleitem{WAMPServer}{}{git~~CLI}{Pour la gestiion des versions}
-\cvdoubleitem{SGBD}{MySQL niveau intermédiaire}{Talend OP}{Conception et implementation D'ETL}
-\cvdoubleitem{QlikView}{Outils ETL et reporting de données}{Cisco packet}{Simulation de reseau informatique}
+\cvdoubleitem{WAMPServer}{}{git~~CLI}{Pour la gestion des versions}
+\cvdoubleitem{SGBD}{MySQL niveau avancé}{Talend OP}{Conception et implémentation D'ETL}
+\cvdoubleitem{QlikView}{Outils ETL et reporting de données}{Cisco packet}{Simulation de réseau informatique}
 %\newpage
 \section{Centres d'intérêts}
 \cvitem{Hobby 1}{Lecture , veille technologique}
 \cvitem{Hobby 2}{jeux vidéo, visionner}
 \cvitem{Hobby 3}{sortie au Cinéma , balade , pratiquer de l'activité physique}
 \section{Autres compétences }
-\cvitem{Permis de conduire}{Categorie B}
+\cvitem{Permis de conduire}{Catégorie B}
 \section{References }
 \cvitem{DZOTANG TCHASSEN Lyonnel}{ING developpement GUCE : (+237) 6 99 05 46 68}
 \cvitem{ZAFACK Billy Ruffin}{ING projet IT, DI GROUPE SABC : (+237) 6 93 77 01 15}
