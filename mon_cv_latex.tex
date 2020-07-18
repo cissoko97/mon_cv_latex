@@ -1,0 +1,140 @@
+\documentclass[11.5pt,a4paper]{moderncv}
+%sans
+\moderncvstyle[left]{banking} 
+\moderncvcolor{burgundy}
+%orientation de la photo
+%\usepackage{xpatch}
+%\patchcmd{\makecvhead}%
+%   {width=\@photowidth}%
+%   {width=\@photowidth,angle=-90}%{}{}
+\setlength{\hintscolumnwidth}{4cm} 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[scale=0.8]{geometry}
+\usepackage{helvet}
+\usepackage[french]{babel}
+\name{TOMFEU}{CISSOKO~Boris      }
+\title{software~developer} 
+\address{Bonamoussadi}{Douala}{CAMEROUN (Mobilité International)}
+\phone[mobile]{(+237)~6~99~55~26~12}
+%\phone[fixed]{01~01~88~33~55}
+%\phone[fax]{02~11~22~33~44}
+\email{boriscissoko@gmail.com}
+%\homepage{www.pierredurand.com}
+\social[linkedin]{boris-cissoko}
+\social[skype]{pierre.durand}
+\social[github]{cissoko97}
+\extrainfo{BI Developer Talend and QlikView}
+\photo[90pt][0.0pt]{maphoto}
+%\quote{Jeune, curieux, autodidacte , passionné d'informatique et de nouvelle technologies, à forte capacité d'adaptation, désirant mettre en valeur mon savoir faire tout en acquérant des compétences nouvelles. Disposer à travailler dans tout cadre propice à l'atteinte de ces objectifs.}
+\begin{document}
+\makecvtitle
+\section{Formation}
+\cventry{2013--2015}{Baccalaureat TI}{Lycée Bilingue de Mbouda}{ouest--Cameroun}{\textit{}}{}
+\cventry{2015--2018}{Licence en Informatique(ICT4D)}{Université de Yaoundé I}{centre--Cameroun}{\textit{Option SIGL}}{mention assez bien}
+%\cventry{En~~cours}{Master en informatique}{Institut universitaire de la côte (IUC)}{Littoral--Cameroun}{\textit{Option SIGL}}{}
+\section{Expérience Technique}
+%licence 2 semestre 1
+\cventry{Déc--2016/Jan--2017}{Conception et implémentation d'une application d'envoi et de réception des SMS}{Licence 2 -- Semestre 1 -- Initiation au développement JAVA (SE)}{Académique}{}{%
+\begin{itemize}
+\item Utilisation de la librairie SMSLIB pour l'envoie des SMS;
+\item Conception et implémentation des interfaces utilisateurs avec java SWING;
+\item Utilisation de MySQl pour la persistance des données.
+\end{itemize}}
+%Licence 2 semestre 1 C# 
+\cventry{Mar--2017/Avr--2017}{Développement du jeux "QUI VEUT GAGNER DES MILLIONS?" en ASP.net}{Licence 2 -- Semestre 1 -- initiation au développement en langage ASP.net}{Académique}{}{%
+\begin{itemize}
+\item Conception et implémentation des interfaces;
+\item Conception et implémentation du processus métier;
+\item Gestion des fichiers Audio(lecture) et texte (Lecture et écriture)
+\item Gestion de la lecture de texte
+\end{itemize}}
+%Licence 2 semestren 2 
+\cventry{Jui--2017/Juil--2017}{Développement d'une application android pour le contrôle des pièces de véhicules}{Licence 2 -- Semestre 2 -- initiation au développement android}{Académique}{}{%
+\begin{itemize}
+\item Conception et implémentation des interfaces avec android;
+\item Initiation au service WEB SOAP;
+\item Utilisation de MySQL pour la persistance des données coté serveur
+\item Communication avec un Back-end SOAP.
+\end{itemize}}
+%MYBONWAYS
+\cventry{Juil--2017/Sept--2017}{Stage Académique}{MYBONWAYS.SARL}{Professionnel}{Développement d'application android}%
+{%
+\begin{itemize}%
+	\item conception et implémentation des interfaces;
+	\item Communication avec le back-end (Java Spring boot);
+	\item initiation aux API REST.
+\end{itemize}}
+%Licence 3 semestren 1
+%\newpage
+\cventry{Jan--2018/Fev--2018}{Développement d'une application web de e-commerce}{Licence 3 -- Semestre 1 -- initiation au développement J2EE}{Académique}{}{%
+\begin{itemize}
+\item Utilisation de Bootstrap et Jquery;
+\item Utilisation de l'API MonetBil pour le payement mobile via OrangeMoney;
+\item Utilisation d'Hibernate JPA et MySQL pour la persistance des données;
+\item Implémentation du Design pattern MVC.
+\end{itemize}}
+%Licence 3 semestren 2
+\newpage
+\cventry{Mai--2018/Jui--2018}{Développement d'un application pour la gestion des Aéroport (Juste les interfaces)}{Licence 3 -- Semestre 2 -- initiation au développement java avancé (JavaFX)}{Académique}{}{
+\begin{itemize}
+\item Conception et implémentation des interfaces avec la librairie JavaFX;
+\item Utilisation de scene Builder et FXML;
+\item Utilisation de JFoenix qui est une implémentation du Material Design pour JavaFX;
+\item Utilisation de JavaFX CSS pour la personnalisation.
+\end{itemize}}
+%\newpage
+\cventry{Aout--2018/Jan--2020}{Conception et implémentation ETL et Développement Web}{Groupe SABC}{Stage et Prestation de Service}{}%
+{%f
+\begin{itemize}%
+	\item Conception et implémentation ETL QlikView and Talend OS;
+	\item Conception et Implémentation de tableaux de bords MsExcel et Power--Pivot ;
+	\item Conception et implémentation de ETL pour la mise à jour automatique des Données.
+	\item Développement d'application Web(Laravel).
+\end{itemize}}
+
+
+\section{Langues}
+\cvitemwithcomment{Français}{Lu, parlé, écrit}{}
+\cvitemwithcomment{Anglais}{niveau débutant}{}
+%\newpage
+\section{Compétences informatiques}
+\cvdoubleitem{HTML5 , CSS3}{mise en forme page HTML}{TypeScript}{}
+\cvdoubleitem{Java}{SE, J2EE, JavaFX}{Android}{Native}
+\cvdoubleitem{JS}{JQuery, ReactJs, Angular, NodeJs (Full-Stack)}{\LaTeX}{moderncv, beams}
+\cvdoubleitem{PHP}{Laravel (Full-Stack) , Symfony}{UML}{Maîtrise de la méthode de modélisation}
+\cvdoubleitem{Git}{Outil de versionning}{SGBD}{MySQL ,NoSQL MongoDB}
+\cvdoubleitem{.md (MarkDown)}{fichier de documentation}{API}{FireBase}
+%\newpage
+\section{Outils de Développement utilisé}
+\cvdoubleitem{NetBeans}{IDE pour programmer en JAVA}{AndroidStudio}{Android Native}
+\cvdoubleitem{Visual Studio code}{}{TexMaker}{IDE pour latex}
+\cvdoubleitem{WAMPServer}{}{git (gitHub)}{Pour la gestion des versions}
+\cvdoubleitem{SGBD}{{MySQL ,MongoDB}}{Talend OS}{Conception et implémentation D'ETL}
+\cvdoubleitem{QlikView}{Outils ETL et reporting de données}{PostMan}{Outils de simulation de requête HTTP}
+
+%Centre d'interet
+%\section{Centres d'intérêts}
+%\cvitem{Hobby}{Lecture , veille technologique , pratiquer de l'activité physique}
+%\newpage
+%Certification
+\section{Certifications}
+\cvitem{\href{https://skillvalue.com/en/certificate/TDkun3VT27loBugtbXkyi6VUdDGiPDDkzT1QmUqGisHoUVAPmeTW8KpVjIud}{NodeJs Certified Beginner}}{}
+\cvitem{\href{https://skillvalue.com/en/certificate/oGmdN8cLdkhc2J6L21WXRYlvIcqpLQA6LKSRgcHDi4CnkhdGVRQ2UaL51CDZ}{Angular 8 Certified Beginner}}{}
+\cvitem{\href{https://skillvalue.com/en/certificate/yeXpzNbbjfsqJHQmhRlQwFNxyd1wEK9QiDeNLa1UyevmxAKpDrB0tHE4sFr1}{Angular 8 Certified Medium}}
+{}
+
+%References
+\section{Réferences}
+\cvitem{Trello app with React and firebase}
+{\url{https://cissoko97.github.io/trello/}}
+\cvitem{Note Mate App with Angular 8}
+{\url{https://cissoko97.github.io/angular_note/note}}
+\cvitem{budget Manager with Angular 8}
+{\url{https://cissoko97.github.io/budget/}}
+
+\section{Personnes Ressources}
+\cvitem{DZOTANG TCHASSEN Lyonnel}{(+237) 6 99 05 46 68}
+\cvitem{ZAFACK Billy Ruffin}{(+237) 6 93 77 01 15}
+\cvitem{KAMDEM Basile}{(+237) 6 96 38 77 16}
+\end{document}
